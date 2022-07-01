@@ -1,0 +1,143 @@
+header{
+    background-color: rgba(122, 18, 27, 1);
+    height: 150px;
+}
+
+img{
+    height: 60px;
+}
+
+.box{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border: solid 2px oldlace;
+    display: flexbox;
+    font-size: 8px;
+    margin-left: 250px;
+    margin-bottom: 70px;
+    position: fixed;
+    top: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.6);
+    font-family: 'Inter', sans-serif;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input{
+    position: relative;
+    margin: 5px;
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    border-color: rgba(250, 212, 39, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+}
+
+button{
+    width: 200px;
+    height: 25px;
+    background-color: rgba(250, 212, 39, 1);
+    font-size: 10px;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+hr{
+    color: rgba(250, 212, 39, 1);
+    margin-top: 330px;
+}
+
+.footer{
+    bottom: 0px;
+    position: relative;
+    text-align: center;
+    margin: 0px;
+    font-family: 'Montserrat-light', sans-serif;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 360px) {
+    header{
+        width: 100%;
+    }
+
+    .box{
+        width: 200px;
+        margin-left: 55px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    input{
+        width: 150px;
+    }
+
+    button{
+        width: 150px;
+    }
+    
+}
+
+@media screen and (min-width: 360px) and (max-width: 460px) {
+    header{
+        width: 100%;
+    }
+
+    .box{
+        width: 230px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 460px) and (max-width: 760px) {
+    header{
+        width: 100%;
+    }
+
+    .box{
+        width: 250px;
+        margin-left: 320px;
+    }
+
+    .footer{
+        bottom: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1024px) {
+    header{
+        width: 100%;
+    }
+
+    .box{
+        width: 250px;
+        margin-left: 740px;
+    }
+
+    .footer{
+        font-size: 40px;
+    }
+}
+
+
